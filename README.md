@@ -51,7 +51,7 @@ Key insights:
 - 🔄 Moving Averages to smooth volatility
 - 📉 Daily returns and volatility metrics
 
-![Price Trend](images/close_price_trend.png)
+![Price Trend](Assets/Price_Over_Time.png)
 ![Daily Returns](images/daily_return_histogram.png)
 
 ---
@@ -123,6 +123,20 @@ Key insights:
 - Deploy as a Streamlit or Dash dashboard
 
 ---
+## 📌 Conclusion & Insights
 
-## 📂 Folder Structure
+- **Trend Classification (Up/Down)** offers decent accuracy for short-term trading signals
+- **Random Forest** models provided better generalization than linear ones
+- **Volatility prediction** adds value in risk-sensitive trading strategies
+- While no model is 100% accurate, they can *enhance decision making*
+
+---
+
+## ✍️ Closing Thoughts
+
+Stock market prediction is complex and influenced by multiple unseen factors like news, market sentiment, and macroeconomics. However, this project demonstrates that with the right features and models, meaningful patterns can be extracted from historical data. 📊
+
+This is just the beginning — the roadmap includes adding sentiment analysis, deploying this as a dashboard, and expanding the scope to multiple stocks.
+
+---
 
