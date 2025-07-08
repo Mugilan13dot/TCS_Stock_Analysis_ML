@@ -52,7 +52,8 @@ Key insights:
 - 📉 Daily returns and volatility metrics
 
 ![Price Trend](Assets/Price_Over_Time.png)
-![Daily Returns](images/daily_return_histogram.png)
+![Volume_Over_Time](Assets/Volume_Over_Time.png)
+![Daily_Returns](Assets/Daily_Returns.png)
 
 ---
 
@@ -84,13 +85,13 @@ Key insights:
 
 | Model | MAE | RMSE | R² Score |
 |-------|-----|------|----------|
-| Linear Regression | `x.xx` | `x.xx` | `x.xx` |
-| Random Forest Regressor | `x.xx` | `x.xx` | `x.xx` |
+| Linear Regression | `26.3964` | `37.0022` | `0.9961` |
+| Random Forest Regressor | `848.3029` | `1032.0684` | `-2.0386` |
 
 ### 🎯 Classification Accuracy
 
-- Price Movement (Up/Down): **xx%**
-- Volatility Classifier: **xx%**
+- Price Movement (Up/Down): **46.65%**
+- Volatility Classifier: **20.49%**
 
 ---
 
@@ -101,8 +102,9 @@ Key insights:
 - ✅ Volatility warning overlays
 - ✅ Multi-day prediction curves
 
-![Actual vs Predicted](images/actual_vs_predicted_rf.png)
-![Confusion Matrix](images/conf_matrix.png)
+![ActualvsPredicted_ClosePrice](Assets/ActualvsPredicted_ClosePrice.png)
+![Confusion_Matrix](Assets/Confusion_Matrix.png)
+![ARIMAForecast_Next10Days](Assets/ARIMAForecast_Next10Days.png)
 
 ---
 
